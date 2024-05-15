@@ -30,15 +30,15 @@
   }
 
   .form-label {
-    @apply text-sm md:text-lg font-normal text-slate-800 mb-2 block;
+    @apply block mb-2 text-sm font-medium md:text-lg text-slate-800;
   }
 
   .form-input {
-    @apply w-full px-4 h-14 text-sm md:text-lg font-normal text-slate-800 border border-secondary-100 rounded-md focus:ring-secondary-100 focus-visible:ring-0 focus:border-2 focus:border-secondary-100;
+    @apply w-full px-4 text-sm font-normal border rounded-md h-14 md:text-lg text-slate-800 border-secondary-100 focus:ring-secondary-100 focus-visible:ring-0 focus:border-2 focus:border-secondary-100;
   }
 
   .form-btn {
-    @apply w-full h-14 rounded-md font-bold hover:opacity-80 transition;
+    @apply w-full font-bold transition rounded-md h-14 hover:opacity-80;
   }
 }
 

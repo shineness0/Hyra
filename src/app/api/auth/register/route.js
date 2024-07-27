@@ -15,7 +15,7 @@ export async function POST(NextRequest) {
       return NextResponse.json(
         { message: "User already exists" },
         { status: 400 }
-      );
+      );  
     }
 
     const newUser = new User({ name, email, username, password });

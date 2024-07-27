@@ -4,7 +4,7 @@ import card2Img from "../../public/card2-img.png";
 import card3Img from "../../public/card3-img.png";
 import card4Img from "../../public/card4-img.png";
 import homeImg5 from "../../public/home-img5.png";
-import WhyChooseUsCard from "@/components/home/whyChooseUsCard";
+import WhyChooseUsCard from "@/components/home/WhyChooseUsCard";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 import MyButton from "@/components/home/MyButton";

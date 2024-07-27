@@ -29,7 +29,7 @@ const TeachingPage = ({ params }) => {
         setIsLoading(false);
         console.log(err);
       });
-  }, []);
+  }, [params.teachingId]);
 
   return (
     <div className="w-full p-5 mx-auto md:w-2/4 md:min-h-[85vh]">
@@ -50,8 +50,8 @@ const TeachingPage = ({ params }) => {
                 {teaching.subheading}
               </h3>
               <ol className="text-lg font-medium list-decimal list-inside">
-                {list.map((item) => (
-                  <li>{item}</li>
+                {list.map((item, idx) => (
+                  <li key={item.id || idx}>{item}</li>
                 ))}
               </ol>
             </div>

@@ -27,7 +27,7 @@ const page = () => {
           <div>
             <p>
               Our Islamic app for kids is designed to inspire and teach in the
-              most enjoyable way. Our app is not just educational; it's an
+              most enjoyable way. Our app is not just educational; it&#39;s an
               adventure in faith
             </p>
           </div>

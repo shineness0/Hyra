@@ -131,7 +131,7 @@ const LoginPage = () => {
           </div>
 
           <div className="flex items-center justify-center my-3 font-medium">
-            <span>Don't have an account?</span>
+            <span>Don&#39;t have an account?</span>
             <Link
               href="/register"
               className="ml-2 font-semibold text-primary-200"

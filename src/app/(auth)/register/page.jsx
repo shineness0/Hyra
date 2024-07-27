@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const page = () => {
+const RegisterPage = () => {
   const router = useRouter();
 
   const formik = useFormik({
@@ -210,4 +210,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default RegisterPage;

@@ -5,7 +5,7 @@ import img3 from "../../../../public/about-img3.png";
 import img4 from "../../../../public/about-img4.png";
 import googlePlayLogo from "../../../../public/google-play.png";
 
-const page = () => {
+const AboutPage = () => {
   return (
     <div>
       <section className="flex flex-col p-10 md:flex-row-reverse">
@@ -86,4 +86,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutPage;

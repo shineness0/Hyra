@@ -5,7 +5,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Spinner } from "@nextui-org/react";
 
-const page = ({ params }) => {
+const TeachingPage = ({ params }) => {
   const [teaching, setTeaching] = useState({});
   const [list, setList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -65,4 +65,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default TeachingPage;

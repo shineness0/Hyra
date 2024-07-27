@@ -4,7 +4,7 @@ import TeachingCard from "@/components/teachings/TeachingCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const page = () => {
+const TeachingsPage = () => {
   const [teachings, setTeachings] = useState([]);
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default TeachingsPage;
